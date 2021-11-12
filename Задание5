@@ -1,0 +1,7 @@
+def Is_sorted(f):
+    s = True
+    for i in range (1,len(f)):
+        if not f[i] >= f[i-1]:
+            s = False
+            break
+    return s
