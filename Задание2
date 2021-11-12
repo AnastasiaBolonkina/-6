@@ -1,0 +1,8 @@
+def cumsum(a):
+    K = []
+    summa = 0
+    for i in range (len(a)):
+        a[i] += summa
+        summa = a[i]
+        K = append(a[i])
+    return K
