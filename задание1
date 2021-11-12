@@ -1,0 +1,7 @@
+def nested_sum (p):
+    summa = 0
+    for i in range (len(p)):
+        a = p[i]
+        b = sum (a)
+        summa += b
+    return summa
