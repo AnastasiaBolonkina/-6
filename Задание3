@@ -1,0 +1,2 @@
+def middle(f):
+    return f[1:-1]
